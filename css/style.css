@@ -1,0 +1,563 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Barra Di Navigazione */
+
+#navbar {
+  padding-top: 3%;
+}
+
+.navbar {
+  margin: 0 5%;
+}
+
+.text-nav {
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.nav-link :hover {
+  text-decoration: underline #a87728;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+/* Heading Section */
+
+.title {
+  font-size: 8rem;
+  color: #ffffff;
+  text-align: center;
+  font-family: "roboto";
+  padding-top: 70px;
+  margin-left: 190px;
+}
+
+.title-ps {
+  text-align: center;
+}
+
+#btn {
+  padding: 10px 20px;
+  background-color: rgba(160, 126, 72, 1);
+  border: none;
+}
+
+.text-btn {
+  color: #fff;
+  font-family: "roboto";
+  letter-spacing: 1px;
+}
+
+.img-logo {
+  width: 700px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.ps-heading {
+  text-align: center;
+  z-index: 10;
+}
+
+.social-icon {
+  color: #fff;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+/* Chi siamo  */
+
+.about {
+  padding: 140px 150px;
+  background-color: #d6bd68;
+}
+
+.about h3 {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  font-family: "bebas neue";
+  letter-spacing: 2px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff;
+  margin: 20px 0 15px;
+  padding: 0;
+}
+
+.about-ps {
+  padding-top: 10px;
+}
+
+.img-fluid {
+  border-radius: 10px;
+  width: 700px;
+}
+
+#btn1 {
+  border: 1px solid #a07e48;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.align {
+  text-align: center;
+}
+
+.text-about {
+  font-style: italic;
+}
+
+/* Servizi */
+
+#servizi {
+  text-align: center;
+  padding: 120px 150px;
+  color: #ffffff;
+}
+
+.servizi-title {
+  font-family: "bebas neue";
+  font-size: 4rem;
+  letter-spacing: 3px;
+  padding-bottom: 50px;
+}
+
+.service-subtitle {
+  padding-top: 20px;
+  font-size: 2.5rem;
+}
+
+.text-service {
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.p-desc {
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 0 150px;
+}
+.header span {
+  color: #0190f9;
+}
+.single-service {
+  padding: 25px;
+  transition: all 0.5s ease;
+  text-align: center;
+  border: solid #a07e48 1px;
+}
+.single-service i {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.single-service h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.single-service:hover {
+  background: radial-gradient(circle, #a87728, #2b2a2a);
+  color: #fff;
+}
+
+/* Contact form */
+
+#contacts {
+  background-color: #a2a2a2;
+  padding: 80px 0px;
+}
+
+.text-p {
+  padding-left: 30px;
+  color: black;
+}
+
+.bg-contatti {
+  background-color: #484848;
+}
+
+.bg-contatti2 {
+  background-color: #d9d9d9;
+  padding: 0 100px;
+}
+
+.bg-contatti3 {
+  background-color: #484848;
+  padding: 0 100px;
+}
+
+.title-contact {
+  color: #fff;
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 4rem;
+  letter-spacing: 6px;
+}
+
+#name {
+  padding: 10px 10px;
+}
+
+#email {
+  padding: 10px 10px;
+}
+
+.title-orari {
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+.title-prezzi {
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  color: #a07e48;
+}
+
+.pull-right {
+  float: right;
+}
+
+.ps-hour {
+  padding: 0 20px;
+  font-family: Arial;
+}
+
+.ps-prezzi {
+  padding: 0 20px;
+  font-family: Arial;
+  color: #fff;
+  line-height: 35px;
+}
+
+.border {
+  border: none;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #181818;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.text-copy {
+  color: #fff;
+  padding: 30px;
+}
+
+/* All Media Query */
+
+@media (max-width: 990px) {
+  /* barra di navigazion */
+  .nav-item {
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .navbar-toggler {
+    width: 70px;
+    height: 60px;
+  }
+  .navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* button */
+
+  #btn {
+    padding: 20px 40px;
+  }
+
+  .text-btn {
+    font-size: 2rem;
+  }
+
+  .social-icon {
+    padding-top: 40px;
+  }
+
+  /* About */
+
+  #servizi {
+    padding: 150px 140px;
+  }
+
+  .about-ps {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .single-service {
+    margin-bottom: 20px;
+  }
+
+  .ps-hour {
+    padding: 5px 0;
+  }
+
+  .ps-prezzi {
+    padding: 5px 0;
+  }
+
+  #about {
+    padding: 140px 100px;
+  }
+
+  .img-fluid {
+    width: 700px;
+  }
+
+  #service-subtitle {
+    font-size: 2.2rem;
+  }
+  .text-service {
+    font-size: 2rem;
+  }
+
+  .text-copy {
+    font-size: 1.2rem;
+  }
+
+  .fixed {
+    position: relative;
+  }
+
+  /* Whatsapp button */
+
+  .whatsapp {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 99999;
+  }
+
+  .fa-whatsapp {
+    color: #fff;
+  }
+  .whatsapp a {
+    font-size: 100px;
+    color: #fff;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 130px;
+    display: block;
+    background-color: #00e675;
+    box-shadow: 0 3px 12px #00000040;
+    transition: 0.3s;
+  }
+
+  .whatsapp a:hover {
+    background-color: #118c7e;
+  }
+}
+
+/* Whatsapp button */
+@media (min-width: 990px) {
+  .whatsapp {
+    position: fixed;
+    right: 60px;
+    bottom: 30px;
+    z-index: 99999;
+  }
+
+  .fa-whatsapp {
+    color: #fff;
+  }
+
+  .whatsapp a {
+    font-size: 50px;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 65px;
+    display: block;
+    background-color: #00e675;
+    box-shadow: 0 3px 12px #00000040;
+    transition: 0.3s;
+  }
+
+  .whatsapp a:hover {
+    background-color: #118c7e;
+  }
+}
+
+/* All media query contacts form */
+
+#contacts {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+@media (max-width: 1880px) {
+  #contacts {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
+
+@media (max-width: 1650px) {
+  #contacts {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
+
+@media (max-width: 1450px) {
+  #contacts {
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+
+@media (max-width: 1250px) {
+  #contacts {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+/* popup */
+
+.popup {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 200ms ease-in-out opacity;
+}
+.popup-content {
+  width: clamp(300px, 90vw, 500px);
+  background-color: #fff;
+  padding: clamp(1.5rem, 100vw, 3rem);
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  border-radius: 0.5em;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: 200ms ease-in-out opacity, 200ms ease-in-out transform;
+  position: relative;
+  width: 500px;
+  background-color: black;
+  padding: 0 20px;
+  padding-top: 80px;
+  /* padding: 120px 50px; */
+}
+.popup h1 {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  font-size: 2.5rem;
+  color: #d9d9d9;
+}
+.popup h1:active {
+  transform: scale(0.9);
+}
+
+.showPopup {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.img-popup {
+  border-radius: 20px;
+}
+
+@media (max-width: 990px) {
+  .popup {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: grid;
+    place-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 200ms ease-in-out opacity;
+  }
+  .popup-content {
+    width: clamp(300px, 90vw, 500px);
+    background-color: #fff;
+    padding: clamp(1.5rem, 100vw, 3rem);
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: 200ms ease-in-out opacity, 200ms ease-in-out transform;
+    position: relative;
+    width: 800px;
+    background-color: black;
+    padding: 0 20px;
+    padding-top: 100px;
+    /* padding: 120px 50px; */
+  }
+  .popup h1 {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+    font-size: 4rem;
+    color: #d9d9d9;
+  }
+  .popup h1:active {
+    transform: scale(0.9);
+  }
+
+  .showPopup {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+  }
+
+  .img-popup {
+    border-radius: 20px;
+  }
+}
